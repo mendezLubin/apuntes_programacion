@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: rgb(225, 222, 222);
+}
+
+.titulo_menu_principal {
+    font-size: 2rem;
+    margin: 10px 10px;
+    color: orange;
+}
+
+.contenedor_secciones {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    /* centra vertical*/
+    align-items: center;     /* centra horizontal */
+    margin-top: 30px;
+
+    list-style: none; 
+    /* Quita los puntitos  */
+    font-size: 2.2rem;
+    line-height: 3.5rem;  
+}
+
+.contenedor_secciones a {
+    text-decoration: none; /* quita subrayado */
+    color: inherit;        
+    /* hereda el color del li o del body */  
+}
+
+.contenedor_secciones a:hover {
+    color: #0077cc;
+}
